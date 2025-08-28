@@ -38,7 +38,7 @@ public class SetmealServiceImpl implements SetmealService {
 
     @Override
     @Transactional
-    public void saveWithFlavor(SetmealDTO setmealDTO) {
+    public void saveWithDishes(SetmealDTO setmealDTO) {
         log.info("新增套餐：{}", setmealDTO);
 
         Setmeal setmeal = new Setmeal();

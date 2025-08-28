@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public interface SetmealService {
 
-    void saveWithFlavor(SetmealDTO setmealDTO);
+    void saveWithDishes(SetmealDTO setmealDTO);
 
     PageResult pageQuery(SetmealPageQueryDTO setmealPageQueryDTO);
 
