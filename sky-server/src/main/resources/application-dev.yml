@@ -11,3 +11,8 @@ sky:
     access-key-id: LTAI5tBKjKpTAMoGizuKyQ4c
     access-key-secret: 5uoQBuLGtG2Kgs72DNNByhfh8nGGS7
     bucket-name: chaochaodbucket
+  redis:
+    host: localhost
+    port: 6379
+    #    password: 117418
+    database: 0
