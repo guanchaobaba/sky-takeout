@@ -15,6 +15,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * 订单管理
+ */
 @RestController("adminOrderController")
 @RequestMapping("/admin/order")
 @Slf4j
